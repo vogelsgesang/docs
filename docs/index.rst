@@ -15,8 +15,8 @@ Welcome to QuantifiedCode.
     :maxdepth: 2
 
     start/index
+    tutorial/index
     usage/index
     configuration/index
-    howto/index
     faq/index
     api/index

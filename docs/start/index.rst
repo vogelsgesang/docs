@@ -6,8 +6,8 @@ On the following page, you'll get answers to your questions. Anything missing? P
 .. toctree::
     :maxdepth: 1
 
-    Quickstart <quickstart>
-    QuantifiedCode in a nutshell <nutshell>
-    Technical requirements <technical_requirements>
-    Plans and pricing <linters>
-    Open Source Usage<linters>
+    quickstart
+    nutshell
+    requirements
+    plans_pricing
+    open_source

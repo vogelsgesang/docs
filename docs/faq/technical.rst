@@ -1,11 +1,11 @@
-Technical FAQs
-==============
+Technical
+=========
 
 .. toctree::
     :maxdepth: 1
 
-    linters_which
-    linters_additional
-    repos_private
-    repos_public
-    cvs
+    technical/linters_which
+    technical/linters_additional
+    technical/repos_private
+    technical/repos_public
+    technical/cvs

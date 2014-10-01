@@ -46,7 +46,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'QuantifiedCode Documentation'
-copyright = u'2014, Andreas Dewes'
+copyright = u'2014, QuantifiedCode UG (haftungsbeschränkt)'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
