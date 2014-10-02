@@ -1,9 +1,8 @@
+=============
 Configuration
 =============
 
-Configuring QuantifiedCode is easy.
+.codecheck file
+===============
 
-.. toctree::
-    :maxdepth: 1
-
-    codecheck
+QuantifiedCode is configured using a file called :: ====================

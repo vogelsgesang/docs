@@ -54,3 +54,12 @@ coverage.xml
 # Sphinx documentation
 docs/_build/
 
+# node
+node_modules/
+
+# bower
+!.bowerrc
+!bower.json
+
+# static
+_static/

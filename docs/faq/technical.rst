@@ -1,9 +1,11 @@
+=========
 Technical
 =========
 
 .. toctree::
     :maxdepth: 1
 
+    technical/requirements
     technical/linters_which
     technical/linters_additional
     technical/repos_private

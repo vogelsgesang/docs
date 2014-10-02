@@ -17,6 +17,16 @@ import os
 
 sys.path.append(os.path.abspath("_themes"))
 
+custom_path = [
+  "../../qc-deployment/vagrant/code/webapp/",
+]
+
+for relative in custom_path:
+  absolute = os.path.abspath(relative)
+  print "Path added: " + absolute
+  sys.path.insert(0, absolute)
+
+
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
@@ -30,7 +40,10 @@ sys.path.append(os.path.abspath("_themes"))
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = []
+extensions = [
+    'sphinx.ext.autodoc',
+    'sphinxcontrib.httpdomain',
+]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -179,7 +192,7 @@ html_static_path = ['_static']
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'PythonAntiPatternsDoc'
+htmlhelp_basename = 'QuantifiedCodeDocs'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -199,8 +212,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('index', 'PythonCodePatterns.tex', u'Python Anti-Patterns',
-   u'Andreas Dewes', 'manual'),
+  ('index', 'QuantifiedCodeDocs.tex', u'QuantifiedCode Documentation',
+   u'QuantifiedCode UG (haftungsbeschränkt)', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -229,8 +242,8 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'pythoncodepatterns', u'Python Anti-Patterns',
-     [u'Andreas Dewes'], 1)
+    ('index', 'QuantifiedcodeDocs', u'QuantifiedCode Documentation',
+     [u'QuantifiedCode UG (haftungsbeschränkt)'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -243,8 +256,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'PythonAntiPatterns', u'Python Anti-Patterns',
-   u'Andreas Dewes', 'PythonAntiPatterns', 'A collection of Python anti-patterns.',
+  ('index', 'QuantifiedcodeDocs', u'QuantifiedCode Documentation',
+   u'QuantifiedCode UG (haftungsbeschränkt)', 'QuantifiedcodeDocs', 'Documentation of QuantifiedCode',
    'Miscellaneous'),
 ]
 
