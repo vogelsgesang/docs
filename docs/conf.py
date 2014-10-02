@@ -17,9 +17,7 @@ import os
 
 sys.path.append(os.path.abspath("_themes"))
 
-custom_path = [
-  "../../qc-deployment/vagrant/code/webapp/",
-]
+custom_path = []
 
 for relative in custom_path:
   absolute = os.path.abspath(relative)
