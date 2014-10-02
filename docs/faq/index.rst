@@ -6,5 +6,8 @@ On the following page, you'll get answers to your questions. Anything missing? P
 .. toctree::
     :maxdepth: 2
 
+    general
     technical
-    business
+    plans
+    payment
+

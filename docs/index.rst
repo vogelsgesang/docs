@@ -11,12 +11,14 @@ Welcome to QuantifiedCode.
 :github_badge:`quantifiedcode/docs`
 
 .. toctree::
-    :glob:
     :maxdepth: 2
 
     start/index
     tutorial/index
+    faq/index
     usage/index
     configuration/index
-    faq/index
+    patterns/index
     api/index
+    Support <http://quantifiedcode.com/contact>
+

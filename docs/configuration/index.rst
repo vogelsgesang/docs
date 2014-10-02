@@ -6,5 +6,4 @@ Configuring QuantifiedCode is easy.
 .. toctree::
     :maxdepth: 1
 
-    online
-    .codecheck
+    codecheck
