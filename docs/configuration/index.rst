@@ -53,6 +53,8 @@ In order to configure a code quality module (e.g., pylint), you have to add an e
     complexity:
         cc_threshold: 14
 
+    ...
+
 
 Code quality modules
 ====================
@@ -60,7 +62,7 @@ Code quality modules
 On the following pages, you will find a detailed overview of the available code quality modules and their configuration options.
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2
 
     modules/complexity
     modules/conventions
