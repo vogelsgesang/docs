@@ -5,7 +5,7 @@ pylint
 Supported Codes
 ===============
 
-We integrated the following, pre-selected `pylint <http://www.pylint.org>`_ messages. Need more? Please `let us know <http://quantifiedcode.com/contact>`_!
+We integrated the following, pre-selected `pylint <http://www.pylint.org>`_ codes. Need more? Please `let us know <http://quantifiedcode.com/contact>`_!
 
 .. csv-table::
     :header: "Code", "Message", "Details"
