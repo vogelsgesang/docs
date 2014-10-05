@@ -8,7 +8,7 @@ Supported Messages
 We integrated the following, pre-selected `pyflakes <https://launchpad.net/pyflakes>`_ codes. Need more? Please `let us know <http://quantifiedcode.com/contact>`_!
 
 .. csv-table::
-    :header: "Code", "Message", "Details"
+    :header: "Code", "Message"
 
     "E101", "indentation contains mixed spaces and tabs"
     "E111", "indentation is not a multiple of four"

@@ -42,11 +42,13 @@ In order to configure a code quality module (e.g., pylint), you have to add an e
         disable:
             - ImportStarUsed
             - UnusedImport
+            - ...
 
     conventions:
         variable:
             naming: underscore
             max_length: 20
+
         function:
             naming: camelCase
 
