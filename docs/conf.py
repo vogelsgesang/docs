@@ -39,6 +39,7 @@ for relative in custom_path:
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    'sphinxcontrib.httpdomain',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
