@@ -1,5 +1,4 @@
 Issues
 ======
 
-.. automodule:: api.v1.issue
-    :members:
+Documentation in progress. Can't wait? Please `contact us <http://quantifiedcode.com/contact>`_!

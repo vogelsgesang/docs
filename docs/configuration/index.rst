@@ -11,7 +11,7 @@ You can ...
 
 * Exclude files and folders from the analysis (just like with .gitignore)
 * Disable undesired issues / messages
-* Configure code quality modules
+* Configure code quality modules (coming soon)
 
 Activation
 ==========
@@ -44,19 +44,6 @@ In order to configure a code quality module (e.g., pylint), you have to add an e
             - UnusedImport
             - ...
 
-    conventions:
-        variable:
-            naming: underscore
-            max_length: 20
-
-        function:
-            naming: camelCase
-
-    complexity:
-        cc_threshold: 14
-
-    ...
-
 
 Code quality modules
 ====================
@@ -66,8 +53,6 @@ On the following pages, you will find a detailed overview of the available code 
 .. toctree::
     :maxdepth: 2
 
-    modules/complexity
-    modules/conventions
     modules/pep8
     modules/pyflakes
     modules/pylint

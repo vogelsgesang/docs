@@ -21,7 +21,7 @@ Users
     :statuscode 200: no error
     :statuscode 403: other error
     :statuscode 404: unknown user
-   
+
 .. http:post:: /logout
 
     Logs out the current authorized User.

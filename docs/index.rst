@@ -13,7 +13,7 @@ Welcome to QuantifiedCode.
 .. toctree::
     :maxdepth: 2
 
-    start/index
+    basics/index
     tutorial/index
     faq/index
     usage/index

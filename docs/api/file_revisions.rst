@@ -1,5 +1,4 @@
 File Revisions
 ==============
 
-.. automodule:: api.v1.file_revision
-    :members:
+Documentation in progress. Can't wait? Please `contact us <http://quantifiedcode.com/contact>`_!
