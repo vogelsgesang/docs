@@ -2,4 +2,4 @@
 Which plans and packages do you offer?
 ======================================
 
-Please find our current plans on our `pricing <http://quantifiedcode.com/pricing>`_ page.
+Our plans are not yet defined. Please `contact us <http://quantifiedcode.com/contact>`_ to get more information.
