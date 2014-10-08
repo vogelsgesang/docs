@@ -4,7 +4,7 @@
 Setting up SSH
 ==============
 
-For security reasons, we can only access your private repositories after you added an SSH key to your git server. The SSH key will be automatically provided, once you'll add a private repository to your account.
+For security reasons, we only access your private repositories via a SSH key. The SSH key will be automatically provided, once you'll add a private repository to your account.
 
 On the following pages, you'll find short tutorials on how to add the SSH key to your git server:
 

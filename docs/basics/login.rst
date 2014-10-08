@@ -4,7 +4,7 @@ Login and signup
 
 To sign-up to or login at QuantifiedCode.com, you have two options:
 
-**1. GitHub**
+**1. GitHub login**
 
     QuantifiedCode is tightly integrated with GitHub. You can use your GitHub to `sign-up <http://quantifiedcode.com/app#/sign-up>`_ or `login <http://quantifiedcode.com/app#/login>`_ to `quantifiedcode.com <http://quantifiedcode.com/app#/sign-up>`_. Using GitHub is easy and you won't have any hassle with entering your name, address, etc.
 

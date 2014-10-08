@@ -7,7 +7,7 @@ Requirements
 To work with QuantifiedCode, you need:
 
 * Git-server
-    * QuantifiedCode works with any self-hosteed, internet-accessible `git-server <http://www.git-scm.com>`_ and with platforms like `GitHub <http://www.github.com>`_, `BitBucket <http://www.bitbucket.com>`_, etc.
+    * QuantifiedCode works with any self-hosted, internet-accessible `git-server <http://www.git-scm.com>`_ and with platforms like `GitHub <http://www.github.com>`_, `BitBucket <http://www.bitbucket.com>`_, etc.
 
 * Repository access
     * For security reasons, you have to add a SSH key to your git server if you'd like to add private repositories. The SSH key will be provided by us, once you add a repository to your account.
