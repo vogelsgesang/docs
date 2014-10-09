@@ -9,7 +9,7 @@ How it works
 
 **1. Connect your repository**
 
-    `Sign-up <http://quantifiedcode.com/app#/sign-up>` and connect your internet-accessible Git repository (e.g,. GitHub)
+    `Sign-up <http://quantifiedcode.com/app#/sign-up>`_ and connect your internet-accessible Git repository (e.g,. GitHub)
 
 **2. Push your commits**
 
