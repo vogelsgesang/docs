@@ -28,7 +28,9 @@ To configure a code quality module (e.g., pylint), you can add a setting to your
 
         exclude:
             - directory
-            - path/to/directory
+            - path/to/sample/directory
+            - **/sample.py
+            - sample_*.py
 
         - pylint:
             disable:
