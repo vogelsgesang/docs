@@ -14,9 +14,7 @@ Welcome to QuantifiedCode.
     :maxdepth: 2
 
     basics/index
-    tutorial/index
     faq/index
-    usage/index
     configuration/index
     patterns/index
     api/index

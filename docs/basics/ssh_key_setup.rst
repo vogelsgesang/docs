@@ -1,8 +1,8 @@
 .. _ssh_setup
 
-==============
-Setting up SSH
-==============
+=============
+SSH-key setup
+=============
 
 For security reasons, we only access your private repositories via a SSH key. The SSH key will be automatically provided, once you'll add a private repository to your account.
 

@@ -40,10 +40,3 @@ Example API Call
       Access-Control-Allow-Headers: Authorization, X-PINGOTHER, Origin, Accept
       Access-Control-Max-Age: 1728000
       Cache-Control: no-cachei
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`

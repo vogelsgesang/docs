@@ -1,5 +1,5 @@
-===============================================
-Is a trial version of QuantifiedCode available?
-===============================================
+=============================
+Is a trial version available?
+=============================
 
-Yes. You can try QuantifiedCode premium features for 14 days. `Sign up here <http://quantifiedcode.com/app#/user/sign-up?>`_.
+Yes! Try QuantifiedCode 14 days for free. `Sign up here <http://quantifiedcode.com/app#/user/sign-up?>`_.

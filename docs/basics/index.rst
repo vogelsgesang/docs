@@ -7,8 +7,8 @@ On the following page, you'll get answers to your questions. Anything missing? P
 .. toctree::
     :maxdepth: 1
 
-    nutshell
+    in_a_nutshell
     requirements
-    login
-    ssh
-    opensource
+    login_signup
+    ssh_key_setup
+    open_source_usage
