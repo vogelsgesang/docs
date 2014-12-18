@@ -61,7 +61,8 @@ Matching Order
 Sometimes you want to make sure that individual parts of your query get executed in the right
 order. This is important for example if you use references in your query and need to make sure
 that the branches of the tree where those references are generated get visited before the branches
-that use them. For this, you can use the `match_first` special argument, which accepts a list of strings and makes sure that the corresponding key/value pairs
+that use them. For this, you can use the `match_first` special argument, 
+which accepts a list of strings and makes sure that the corresponding key/value pairs
 in the match query will get checked in the order you provided. This is important if you work
 with references and want to make sure that the branch which stores the reference will get executed
 before the branch that makes use of it. An example:
@@ -78,7 +79,6 @@ before the branch that makes use of it. An example:
 
 will match if it encounters a function definition in the `foo` branch and also finds it again
 in the `bar` branch.
-
 
 References
 ----------

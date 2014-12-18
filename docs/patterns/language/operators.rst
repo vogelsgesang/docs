@@ -19,10 +19,10 @@ Query Operators
 Basics
 ======
 
-Operators get invoked by adding a dict to your query that contains a key with
-the name of the operator, prefixed by the magic **$** sign. The value corresponding to that key
-will then get compiled and passed to the operator function. All other key/value pairs in the dict
-will get passed as arguments to the operator. An example:
+For advanced pattern matching, you can make use of special operators in your query. 
+These always start with a dollar (**$**) sign to distinguish them from normal query field. 
+The value you pass to the operator should again be a valid pattern dict, or for some operators, 
+a dictionary containing arguments. An example: The pattern
 
 .. code-block:: yaml
 
@@ -30,23 +30,41 @@ will get passed as arguments to the operator. An example:
       node_type: functiondef
     name : my_function
 
-will match nodes with `node_type = functiondef` and store them in a variable called `my_function`.
+will store a node with `node_type = functiondef` in the variable `my_function`.
 
-Another one:
+Some operators do not require a pattern dict and will instead accept arguments. 
+These **argument-only** are marked in the list below. An example is the `ref` operator,
+which you can invoke like this:
 
 .. code-block:: yaml
 
-    $repeat:
-      node_type: assign
-    min: 5
-    max: 10
+    $ref:
+      name: my_function
 
-Will match 5 to 10 consecutive `assign` statements.
+This will fetch the tree stored in the variable `my_function`.
+
+Special Cases
+-------------
+
+The normal matching operator also accepts some special arguments, which you can provide using the
+special **$** field like this:
+
+.. code-block:: yaml
+
+  $ : {match_first : foo}
+  foo: {$store : {$anything : {}},name: foo}
+  baz: {$ref : {name: foo}}
+
+Here, we specify that the `foo` branch should get matched first, since the value that we generate
+there will be used in the `bar` branch below.
 
 .. _references:
 
 Storing and Retrieving Sub-Patterns
 ===================================
+
+Often you want to store a part of a tree and reuse it somewhere else in your query. The `$store`
+operator allows you this. It accepts as a value
 
 $store
 ------
