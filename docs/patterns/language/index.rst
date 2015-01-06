@@ -14,5 +14,6 @@ all available language constructs and operators, check ou the :doc:`operators <o
 
     Basic Tutorial <basics>
     Operators <operators>
+    Examples <examples>
 
 
