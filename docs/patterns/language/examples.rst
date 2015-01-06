@@ -17,11 +17,10 @@ perform any operation in the `except` block.
 
 .. code-block:: yaml
 
-  UnqualifiedExceptWithoutAction:
-    handlers:
-      body: {node_type: pass}
-      type: null
-    node_type: tryexcept
+  handlers:
+    body: {node_type: pass}
+    type: null
+  node_type: tryexcept
 
 This catches e.g. the following code:
 
