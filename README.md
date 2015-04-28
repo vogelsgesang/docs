@@ -2,7 +2,7 @@
 
 #Description
 
-This is an open collection of Python code patterns and anti-patterns, many of which can be automatically checked on [alpha.quantifiedcode.com](http://alpha.quantifiedcode.com).
+This is the documenation of [QuantifiedCode](http://alpha.quantifiedcode.com). Feel free to suggest changes, make improvements or add content to it.
 
 #Licence
 
