@@ -16,6 +16,5 @@ Welcome to QuantifiedCode.
     basics/index
     faq/index
     patterns/index
-    api/v1/index
     Support <http://quantifiedcode.com/contact>
 
