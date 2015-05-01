@@ -7,5 +7,7 @@ General
 
     general/trial.rst
     general/free.rst
+    general/free_base.rst
+    general/free_why.rst
     general/security.rst
-    general/account_team.rst
+    general/team.rst
