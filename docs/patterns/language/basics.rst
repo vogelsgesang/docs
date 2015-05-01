@@ -39,7 +39,7 @@ Basic Matching
 
 As you can see, the AST consists of a node with `node_type = assign`, which contains various
 subnodes such as a `value` and one or several `targets`. Now, let's assume we want to match all
-assignments that contain a variable named `a` in their `targets` list. The `Cody` query for this 
+assignments that contain a variable named `a` in their `targets` list. The `Cody` query for this
 is as follow:
 
 .. code-block:: yaml
@@ -61,7 +61,7 @@ Matching Order
 Sometimes you want to make sure that individual parts of your query get executed in the right
 order. This is important for example if you use references in your query and need to make sure
 that the branches of the tree where those references are generated get visited before the branches
-that use them. For this, you can use the `match_first` special argument, 
+that use them. For this, you can use the `match_first` special argument,
 which accepts a list of strings and makes sure that the corresponding key/value pairs
 in the match query will get checked in the order you provided. This is important if you work
 with references and want to make sure that the branch which stores the reference will get executed
@@ -70,8 +70,8 @@ before the branch that makes use of it. An example:
 .. code-block:: yaml
 
     $ : {match_first: [foo]}
-    foo: 
-      $store: 
+    foo:
+      $store:
         node_type: functiondef
       name: my_function
     bar:
@@ -84,7 +84,7 @@ References
 ----------
 
 Often when looking for certain code patterns, we want to store a part of a matched tree and reuse it
-somewhere else in our pattern. This is akin to using a parens operator in Regex, like 
+somewhere else in our pattern. This is akin to using a parens operator in Regex, like
 `/(foo) is \1/', which will match `foo is foo`. In `Cody`, the operators we use for this are called
 `$store<store>` and `$ref<ref>`, and they work as follows:
 
@@ -92,4 +92,4 @@ somewhere else in our pattern. This is akin to using a parens operator in Regex,
 
   node_type: for
   target :
-    $store : 
+    $store :

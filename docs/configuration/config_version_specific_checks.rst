@@ -1,8 +1,10 @@
+.. _config_version_specific_checks:
+
 ===============================================
-Can select checks for a certain Python version?
+Enable checks for a certain Python version only
 ===============================================
 
-Yes. Go to “Your projects” and click on the settings symbol. In the sidebar, click on “Basics” and tag your project (e.g,. with "python-2.7", "python-3", etc.).
+Go to “Your projects” and click on the settings symbol. In the sidebar, click on “Basics” and tag your project (e.g,. with "python-2.7", "python-3", etc.).
 
 With the next analysis, all patterns with the respective tag will be added to the analysis. Whenever a new pattern with the same tag is added to our platform, it will automatically be included in your analysis. Of course, after we did a quality check.
 

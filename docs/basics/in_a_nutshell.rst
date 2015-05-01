@@ -9,20 +9,22 @@ How it works
 
 **1. Connect your repository**
 
-    `Sign-up <http://quantifiedcode.com/app#/sign-up>`_ and connect your internet-accessible Git repository (e.g,. GitHub)
+    `Sign-up <https://quantifiedcode.com/app/signup>`_ and connect your internet-accessible Git repository (e.g,. GitHub)
 
-**2. Push your commits**
+**2. Configure your analysis
 
-    Keep committing your code to you repostories. After each commit, we will pull the latest version of your repository and (re-)analyze your code base.
+    After your project is added, to the project settings and configure your analysis. To exclude certain files or folders from the analysis, add a .checkignore file to your repo. Visit the <configuration> chapter to learn more.
 
-**3. Analyze your code**
+**3. Add a commit hook
 
-    Once the analysis is finished, you'll get an overview of potential issues,
+    Next, add a <config_commit_hooks>, to make sure your project is re-analyzed, each time you commit a change.
 
+**4. Push your commits**
 
-Why we make a difference
-------------------------
+    Keep committing your code to you repostories.
 
-We took a whole new, data-driven approach to code analysis. Unlike any other code checker out there, we've conveive code error as patterns, not as rules. This is a paradigm shift indeed, but with many exciting opportunities to improve your code quality.
+**5. Analyze your code**
+
+    Once the analysis is finished, you'll get an overview of potential issues.
 
 

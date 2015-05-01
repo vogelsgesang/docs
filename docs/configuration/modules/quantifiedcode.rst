@@ -1,5 +1,0 @@
-==============
-QuantifiedCode
-==============
-
-Comming soon

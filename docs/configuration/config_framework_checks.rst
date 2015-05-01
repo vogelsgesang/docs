@@ -1,8 +1,10 @@
-=============================================
-How to enable framework specific code checks?
-=============================================
+.. _config_framework_checks:
 
-Go to “Your projects” and click on the settings symbol. In the sidebar, click on “Basics” and tag your project (e.g,. with "django", "django-1.8").
+=====================================
+Enable framework specific code checks
+=====================================
+
+Go to `“Your projects” <https://www.quantifiedcode.com/app/projects>`_ and click on the settings symbol. In the sidebar, click on “Basics” and tag your project (e.g,. with "django", "django-1.8").
 
 With the next analysis, all patterns with the respective tag will be added to the analysis. Whenever a new pattern with the same tag is added to our platform, it will automatically be included in your analysis. Of course, after we did a quality check.
 
