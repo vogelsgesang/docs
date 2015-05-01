@@ -4,14 +4,13 @@
 Commit hooks
 ============
 
-Just add a file named **.checkignore** to the root folder of your repo. The syntax of **.checkignore** files is identical with the syntax of `.gitignore's <http://git-scm.com/docs/gitignore`_. files. Files and folders that are mentioned in the **.checkignore** will be ignored, once your project is re-analyzed.
+You can add commit hooks to your git server/service, to trigger the anaylsis of your code on QuantifiedCode.
 
-The following example excludes all files and folders that are in the “test” folder. In addition, the file “demo.py” is not analyzed.
+Here's how:
+- Go to “Your projects” and click on the settings symbol
+- In the sidebar, click on “Hooks” and copy the hook URL.
+- Now, go to GitHub, BitBucket (or your local git server) and enable the hook
 
-.. code-block:: python
-  # .checkignore example
-  # Exclude all test folders
-  **/test
-  # Exclude demo.py files
-  demo.py
+Learn more about `GitHub webhooks <https://help.github.com/articles/about-webhooks>`_ or `Bitbucket webhooks <https://confluence.atlassian.com/display/BITBUCKET/POST+hook+management>`_.
+
 

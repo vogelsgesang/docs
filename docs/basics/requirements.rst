@@ -6,7 +6,7 @@ Requirements
 
 To work with QuantifiedCode, you need:
 
-* Git-server
+* A git server/service
     * QuantifiedCode works with any self-hosted, internet-accessible `git-server <http://www.git-scm.com>`_ and with platforms like `GitHub <http://www.github.com>`_, `BitBucket <http://www.bitbucket.com>`_, etc.
 
 * Repository access

@@ -9,4 +9,3 @@ On the following page, you'll get answers to your questions. Anything missing? P
 
     general
     technical
-    plans

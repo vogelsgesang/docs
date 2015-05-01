@@ -1,4 +1,4 @@
-.. _configuration:
+.. _configuration_index:
 
 =============
 Configuration
@@ -7,8 +7,8 @@ Configuration
 .. toctree::
     :maxdepth: 2
 
-    config_commithooks
+    config_commit_hooks
     config_checkignore
-    config_messages
+    config_disable_checks
     config_framework_checks
     config_version_specific_checks
