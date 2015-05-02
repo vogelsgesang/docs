@@ -18,8 +18,8 @@ Get started
 
 **3. Configure your analysis**
 
-    After your project is added, to the project settings and configure your analysis. To exclude certain files or folders from the analysis, add a .checkignore file to your repo. Visit the :ref:`Configuration<configuration_index>` chapter to learn more.
+    After your project is added, go to your project's settings and configure your analysis. To exclude certain files from the analysis, add a .checkignore file to your repo. Visit the :ref:`Configuration<configuration_index>` chapter to learn more.
 
 **4. Add a commit hook**
 
-    Next, add a :ref:`commit hook <config_commit_hooks>` to your git server/service, to make sure your project is re-analyzed, each time you commit a change.
+    Finally, add a :ref:`commit hook <config_commit_hooks>` to your git server/service, to make sure your project is re-analyzed, each time you commit to your repo.
