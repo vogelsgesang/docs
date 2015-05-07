@@ -12,3 +12,4 @@ Configuration
     config_disable_checks
     config_framework_checks
     config_version_specific_checks
+    config_code_quality_badge
