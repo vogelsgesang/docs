@@ -5,6 +5,7 @@ General
 .. toctree::
     :maxdepth: 1
 
+    general/free.rst
     general/trial.rst
     general/security.rst
     general/email_login.rst
